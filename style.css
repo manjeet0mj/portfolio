@@ -1,0 +1,317 @@
+*{ 
+     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*-----header----*/
+
+
+
+.front-foot{
+  border-bottom: none;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  color: aliceblue;
+  background-color: black;
+  position: relative;
+
+
+}
+.nav{
+    padding: 1% 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Lucida Sans;
+    
+}
+
+.nav .logo{
+    color: rgb(31, 135, 225);
+    text-decoration: none;
+}
+.nav .menu{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/*-----mid----*/
+.middle-part{
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.middle-part .profile-pic{
+    margin-top: 55px;
+    
+    height: 200px;
+    margin-right: 20%;
+    
+    
+   transition: filter 0.3s ease;
+    border-radius: 50%;
+  
+
+}
+.mj-png{
+  height: 230px;
+  border: 1px solid rgb(31, 135, 225);
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  
+  
+
+}
+.mj-png:hover {
+      box-shadow: 0 10px 20px rgb(31, 135, 225);
+  transform: translateY(-5px); /* optional lift effect */
+  
+}
+
+.yes-baby{
+    margin-top: 8%;
+    width: 500px;
+   margin-left: 15%;
+   font-size: 3rem;
+   opacity: .6;
+   line-height: 1;
+
+}
+
+.mid{
+    
+    margin-left: 32%;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: rgb(31, 135, 225);
+    transition: filter 0.3s ease;
+}
+.mid:hover {
+ filter: drop-shadow(0 8px 15px rgba(60, 34, 225, 0.913));
+  transform: translateY(-5px); /* optional lift effect */}
+
+ .based{
+    font-size: .3em;
+    margin-left: 60%;
+}
+
+/*-----about----*/
+.about{ 
+    height: 150px;
+    margin-left: 65%;
+    background-color:rgb(54 79 99 / 46%);
+    margin-top: 120px;
+    border-radius: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    
+    
+        
+}
+.about .work{
+    margin-top: 10px;
+    padding: 2px;
+    font-family: 'Space Grotesk';
+    color: #d0f0ff;
+    
+    padding-left: 20px;
+}
+
+#heading{
+    padding-top: 10px;
+}
+.lighting{
+    text-decoration: none;
+}
+.lighting:hover .about {
+  box-shadow: 0 10px 20px rgba(85, 64, 221, 0.913);
+  transform: translateY(-5px); /* optional lift effect */
+}
+
+/*-----footer----*/
+
+.main-footer {
+    font-size: 16px;
+
+}
+.main-footer .footer{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: absolute;
+    bottom: 1rem;
+}
+
+
+
+.footer .prjoct-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer .contact{
+    color: aliceblue;
+   text-decoration: none;
+}
+.footer .circle{
+    color: aliceblue;
+   
+}
+
+/*------second -page------*/
+
+.second-end{
+    padding-top: 10vh;
+     border-bottom: none;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  color: aliceblue;
+  background-color: black;
+} 
+
+.working-section{
+   
+    font-size: 2.5rem;
+    margin-right: 5vw;
+    text-transform: uppercase;
+    opacity: .7;
+    margin-left: 2%;
+
+}
+               
+#the-plug{
+    display: flex;
+    justify-content: space-between;
+
+}
+               
+#the-plug .plug-img{
+    padding-right: 10%;
+    height: 124px;
+    display: none;
+    
+
+}
+
+.working-section .box{
+    padding-left: 3%;
+    border-top:1px solid #f4f4f2;
+}
+.working-section #learing-box {
+    padding-left: 3%;
+    border-top:1px solid #f4f4f2;
+}
+
+#learing-box{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#learing-box .date{
+    font-size: 1rem;
+    padding-right: 1vw;  
+
+}
+
+
+/*------Contact -page------*/
+
+.contact-me{
+    margin-top: 7vh;
+
+    height: 32vh;
+    
+    display: flex;
+
+}
+.left-section{
+    width: 40%;
+    
+}
+.left-section h1{
+    font-size: 2.7rem;
+    padding-left: 5%;
+ 
+    text-transform:capitalize;
+}
+.left-section .email {
+   
+     font-size: .85rem;
+
+    margin-top: 5%;
+    padding-left: 5%;
+    
+}
+.left-section .number {
+        margin-top: 5%;
+    padding-left: 5%;
+   
+}
+.left-section .submit-button {
+        margin-top: 3%;
+        margin-left: 35%;
+        color: #f4f4f2;
+        background-color:rgb(54 79 99 / 46%);
+        padding: 3% 10%;
+        border-radius: 5px;
+        border: 1px solid rgb(31, 135, 225);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+   
+}
+.submit-button:hover{
+    box-shadow: 0px 5px 10px rgb(31, 135, 225) ;
+}
+
+.right-section{
+ 
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.right-section .name{
+    margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 10px;
+   
+}
+.right-section .email{
+   
+     margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 10px;
+   
+
+}
+  
+.right-section  .message{
+    height: 50% ;
+     margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 10px;
+
+}
+  
